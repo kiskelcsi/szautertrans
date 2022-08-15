@@ -586,6 +586,10 @@
     .job-box{
         max-width: 75%;
     }
+    .order-map {
+        position: relative;
+        left: 40px;
+    }
 }
 @media (min-width: 1520px) {
     .container {
