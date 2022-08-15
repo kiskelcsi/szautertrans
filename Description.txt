@@ -1,0 +1,32 @@
+TransBizz – Transportation and Logistics HTML Template – The template was exclusively crafted
+ for logistics, transportation, cargo, trucking, freight, shipping, worldwide transport, 
+warehousing, ground transport, door to door delivery, packaging and storage, businesses
+ and services websites
+It has 100% responsive design and tested on all major handheld devices.
+
+Features:
+Bootstrap responsive.
+Google Fonts
+Owl Slider
+Unlimites Colors
+Speed Optimized
+Font Awesome
+Google Maps
+Pricing tables
+Clean code
+Responsive desgin
+Contact Form
+Free Google web fonts.
+Well and commented code
+Light & Error Free Code
+Very Easy To Customise
+Cross browser compatible
+W3C valided code
+ 
+
+Includes:
+JQuery
+HTML Files
+CSS Files
+JavaScript Files
+Documentation Files
