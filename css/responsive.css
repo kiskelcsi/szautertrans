@@ -552,7 +552,9 @@
     .text-right {
         text-align: center;
     }
-
+    .single-about-count {
+        min-height: 217px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -584,16 +586,20 @@
         width: 1370px !important;
     }
     .job-box{
-        max-width: 75%;
+        max-width: 80%;
     }
     .order-map {
         position: relative;
-        left: 40px;
+        left: 25px;
     }
 }
 @media (min-width: 1520px) {
     .container {
         width: 1470px !important;
+    }
+    .order-map {
+        position: relative;
+        left: 40px;
     }
 }
 @media (max-width: 1020px) {

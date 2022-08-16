@@ -1096,7 +1096,8 @@ ul#nav li ul a,
 }
 
 .service-bottom-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/service/service-area-bg.jpg") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("img/man-fleet.jpeg") no-repeat scroll 0 0;
+    background-size: contain;
     height: 100%;
     left: 0;
     position: absolute;
@@ -1525,7 +1526,7 @@ a.action-bottom h4 {
 }
 
 .promo-botton-area-bg {
-    background: url("img/promo/promo_bottom_bg.jpg") no-repeat scroll center center / cover;
+    background: url("img/bottom-line.jpg") no-repeat scroll center center / cover;
     height: 100%;
     left: 0;
     position: absolute;
@@ -2081,4 +2082,14 @@ iframe#gmap_canvas {
 }
 .job-contact:hover{
     color: red;
+}
+
+.logo-line {
+    display: flex;
+    align-items: center;
+}
+
+.fa{
+    width: 15px;
+    margin-right: 5px;
 }
