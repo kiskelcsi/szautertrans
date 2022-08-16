@@ -8,16 +8,10 @@
       <change afterPath="$PROJECT_DIR$/../hirth/templates/default/images/favicon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hirth/templates/default/images/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hirth/templates/default/models/termekek.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottom-line.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logok/MAN_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/man-fleet (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/man-fleet.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/process.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
       <workItem from="1660200894114" duration="5356000" />
       <workItem from="1660206949329" duration="25841000" />
       <workItem from="1660571797437" duration="596000" />
-      <workItem from="1660623782116" duration="6171000" />
+      <workItem from="1660623782116" duration="7681000" />
     </task>
     <servers />
   </component>

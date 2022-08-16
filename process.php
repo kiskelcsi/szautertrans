@@ -1,13 +1,14 @@
 <?php
 // Configure your Subject Prefix and Recipient here
 $subjectPrefix = '[Contact Form Website]';
-$emailTo       = '<company@example.com>';
+$emailTo       = '<kiskelcsi@gmail.com>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = stripslashes(trim($_POST['name']));
     $email   = stripslashes(trim($_POST['email']));
     $phone = stripslashes(trim($_POST['phone']));
+    $subject = stripslashes(trim($_POST['subject']));
     $message = stripslashes(trim($_POST['message']));
     if (empty($name)) {
         $errors['name'] = 'Name is required.';
@@ -17,6 +18,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     if (empty($phone)) {
         $errors['phone'] = 'Phone is required.';
+    }
+    if (empty($subject)) {
+        $errors['subject'] = 'Subject is required.';
     }
     if (empty($message)) {
         $errors['message'] = 'Message is required.';
@@ -31,6 +35,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             <strong>Name: </strong>'.$name.'<br />
             <strong>Email: </strong>'.$email.'<br />
             <strong>Phone: </strong>'.$phone.'<br />
+            <strong>Subject: </strong>'.$subject.'<br />
             <strong>Message: </strong>'.nl2br($message).'<br />
         ';
         $headers  = "MIME-Version: 1.1" . PHP_EOL;
@@ -45,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $headers .= "X-Originating-IP: " . $_SERVER['SERVER_ADDR'] . PHP_EOL;
         mail($emailTo, "=?utf-8?B?" . base64_encode($subject) . "?=", $body, $headers);
         $data['success'] = true;
-        $data['message'] = 'Congratulations. Your message has been sent successfully';
+        $data['message'] = 'Üzenet elküldve! Kollégánk hamarosan felveszi önnel a kapcsolatot!';
     }
     // return all our data to an AJAX call
     echo json_encode($data);

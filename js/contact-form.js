@@ -26,6 +26,7 @@ Ajax Contact Form
             'name' : $('input[name="form-name"]').val(),
             'email' : $('input[name="form-email"]').val(),
             'phone' : $('input[name="form-phone"]').val(),
+            'subject' : $('input[name="form-subject"]').val(),
             'message' : $('textarea[name="form-message"]').val()
         };
 
@@ -53,7 +54,10 @@ Ajax Contact Form
                     $('#phone-field').addClass('has-error');
                     $('#phone-field').find('.form-input').append('<span class="help-block">' + data.errors.phone + '</span>');
                 }
-
+                if (data.errors.subject) {
+                    $('#subject-field').addClass('has-error');
+                    $('#subject-field').find('.form-input').append('<span class="help-block">' + data.errors.subject + '</span>');
+                }
                 if (data.errors.message) {
                     $('#message-field').addClass('has-error');
                     $('#message-field').find('.form-input').append('<span class="help-block">' + data.errors.message + '</span>');
